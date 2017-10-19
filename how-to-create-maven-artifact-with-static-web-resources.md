@@ -1,4 +1,4 @@
-#How to create Maven artifact with static web resources, host it on GitHub and add as Maven dependency to another project
+# How to create Maven artifact with static web resources, host it on GitHub and add as Maven dependency to another project
 
 Modern web applications tend to have more autonomous and more sophisticated javascript webfrontends. Reasons are propably multi-client apps, that have to run on pc browsers as well as on mobile phones. Another reason could be Node.js - an engine, that brings the possibility to run javascript code outside of a browser and enables javascript tooling for developers.
 
