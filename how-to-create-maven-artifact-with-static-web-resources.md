@@ -1,16 +1,10 @@
 # How to create Maven artifact with static web resources, host it on GitHub and add as Maven dependency to another project
 
-Modern web applications tend to have more autonomous and more sophisticated javascript webfrontends. Reasons are propably multi-client apps, that have to run on pc browsers as well as on mobile phones. Another reason could be Node.js - an engine, that brings the possibility to run javascript code outside of a browser and enables javascript tooling for developers.
+## Build integration of Single-page application in Java EE
 
-Front end developers of a pure single site javascript application can take a huge advantage of the new tools around node.js. They include testing, package managing and build tools, that are able to do their job easier than complicated Maven configurations with javascript, for which Maven hasn't been created. Using Maven to include Javascript ([WebJar](http://www.webjars.org/documentation)) breaks the frontend's developer responsiblity for the frontend. Nevertheless, for configuration, testing and development purposes, both worlds should integrate easily in Maven and be able to run on one application server. This article shows a possiblity how to bring those two worlds together.
+Front end developers of a Single-page application can take a huge advantage of the new tools around node.js. They include testing, package managing and build tools, that are able to do their job easier than complicated Maven configurations with javascript, for which Maven hasn't been created. Using Maven to include Javascript ([WebJar](http://www.webjars.org/documentation)) breaks the frontend's developer responsiblity for the frontend. Nevertheless, for configuration, testing and development purposes, both worlds should integrate easily in Maven and be able to run on one application server. This article shows a possiblity how to achieve this.
 
-### Drawbacks of running frontend and backend on seperate servers
-A simple solution would be to run the Java-backend and the web-frontend on two seperate servers: on an application server and a webserver and let them communicate via inter-server REST-calls. If you don't need scalable applications, drawbacks of such a solution are:
-
-* the doubled work for server configuration (maintanance, security, ssl, tests ...) 
-* and the forced usage of JSONP (Json with padding) or CORS, if both servers do not run on same domain and port. 
-
-## Create a pure HTML/JavaScript project as a Maven dependency using GitHub as Maven repository 
+## Create a pure HTML/Javascript project as a Maven dependency using GitHub as Maven repository 
 A Javascript library like JQuery is already includable by a Maven dependency using [WebJar](http://www.webjars.org/documentation). But what about own javascript project, that includes a JavaScript framework in a `package.json` configured by npm?
 
 Jürgen Kofler describes a [configuration](http://kofler.nonblocking.at/2014/05/bringing-the-java-and-javascript-world-together/), which creates a maven dependency with the web frontend out of a zip file. Then he includes that dependency in the backend. I followed these steps, but used 
