@@ -1,6 +1,4 @@
-# How to create Maven artifact with static web resources, host it on GitHub and add as Maven dependency to another project
-
-## Build integration of Single-page application in Java EE
+## How to provide a Single-page application as maven dependency, host it on GitHub and add it to a Java EE backend project
 
 Front end developers of a Single-page application can take a huge advantage of the new tools around node.js. They include testing, package managing and build tools, that are able to do their job easier than complicated Maven configurations with javascript, for which Maven hasn't been created. Using Maven to include Javascript ([WebJar](http://www.webjars.org/documentation)) breaks the frontend's developer responsiblity for the frontend. Nevertheless, for configuration, testing and development purposes, both worlds should integrate easily in Maven and be able to run on one application server. This article shows a possiblity how to achieve this.
 
