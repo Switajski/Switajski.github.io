@@ -7,7 +7,7 @@ A Javascript library like JQuery is already includable by a Maven dependency usi
 
 Jürgen Kofler describes a [configuration](http://kofler.nonblocking.at/2014/05/bringing-the-java-and-javascript-world-together/), which creates a maven dependency with the web frontend out of a zip file. Then he includes that dependency in the backend. I followed these steps, but used 
 
-* **jar** instead of zip, because of [Servlet 3 specification](https://blogs.oracle.com/alexismp/entry/web_inf_lib_jar_meta). Consequently unzipping is obsolete.
+* **jar** instead of zip, because of [Servlet 3 specification](https://alexismp.wordpress.com/2010/04/28/web-inflib-jarmeta-infresources/). Consequently unzipping is obsolete.
 * **GitHub** as Maven repository, 
 * **Travis-CI** instead of Jenkins for automation. 
 
