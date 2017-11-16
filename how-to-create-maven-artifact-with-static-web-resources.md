@@ -24,7 +24,7 @@ As a consequence I am able to develop the HTML / Javascript / CSS files with my 
 
 ### 1. Add a grunt task to zip all necessary files.
 
-Grunt is used to automate repeated tasks that are necessary to build javascript projects. In our example we use grant to compress [(documentation)](http://grunt-tasks.com/grunt-contrib-compress/) all necessary files from the `app` folder to FlexibleOrdersGui.zip and rename it to a jar file.
+Grunt is used to automate repeated tasks that are necessary to build javascript projects. In our example we use grant to compress all necessary files from the `app` folder to FlexibleOrdersGui.zip and rename it to a jar file.
 
 ![folder structure](http://wiki.switajski.de/gui-folder-structure.png)
 
