@@ -26,7 +26,7 @@ As a consequence I am able to develop the HTML / Javascript / CSS files with my 
 
 Grunt is used to automate repeated tasks that are necessary to build javascript projects. In our example we use grant to compress all necessary files from the `app` folder to FlexibleOrdersGui.zip and rename it to a jar file.
 
-![folder structure](http://wiki.switajski.de/gui-folder-structure.png)
+![folder structure](http://switajski.github.io/gui-folder-structure.png)
 
 [Gruntfile.js](https://GitHub.com/Switajski/FlexibleOrdersGui/blob/master/Gruntfile.js)
 
@@ -172,7 +172,7 @@ Username and password of your GitHub repository is provided in your `~/.m2/setti
 based on [here](http://knowm.org/configure-travis-ci-to-deploy-snapshots/)
 
 #### broken builds from mvn-repo
-![failing build from mvn-repo](http://wiki.switajski.de/failing_build_mvn_repo.png)
+![failing build from mvn-repo](http://switajski.github.io/failing_build_mvn_repo.png)
 
 ### 4. Configure Maven to include the GUI via `<dependency>` and let Maven unpack the webfrontend to a static folder provided by an application server
 
