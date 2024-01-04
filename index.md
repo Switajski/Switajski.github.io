@@ -4,6 +4,9 @@ from 7.1.2016
 * [React workshop](http://switajski.github.io/react-workshop)
 from 20.7.2018
 
+* [GraphQL tech talk](https://www.youtube.com/watch?v=9gilc39zUOE)
+from 4.8.2020
+
 Awesome training! 2017 with Max Stoiber. I really recommend it.
 
 ![](http://switajski.github.io/certificate2017.jpg)
