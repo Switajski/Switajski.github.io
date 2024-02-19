@@ -9,5 +9,5 @@ from 4.8.2020
 
 ## Other than IT
 
-[Mini ramp Project for my home-town](http://switajski.github.io/minramp)
+[Mini ramp Project for my home-town](http://switajski.github.io/miniramp)
 
