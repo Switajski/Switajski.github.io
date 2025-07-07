@@ -1,6 +1,7 @@
 # Miniramp fuer die Oeffentlichkeit
 
-Ich will eine [Skateboard Miniramp 750 x 250 x 100 cm](https://www.backyard-ramps.com/skateboard-miniramp-750x250x100) kaufen, auf einem oeffentlichen Platz bauen und sie der Oeffentlichkeit zur Verfuegung stellen. 
+Ich will eine [Skateboard Miniramp 750 x 375 x 100 cm](https://www.backyard-ramps.com/skateboard-miniramp-750x375x100) kaufen, auf einem oeffentlichen Platz bauen und sie der Oeffentlichkeit zur 
+ Verfuegung stellen. 
 
 ![alt text](image-2.png)
 
