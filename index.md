@@ -7,6 +7,8 @@ from 20.7.2018
 * [GraphQL tech talk on youtube together with Tobias Tschech in German](https://www.youtube.com/watch?v=9gilc39zUOE)
 from 4.8.2020
 
+* [How does AI code make me happy?](http://switajski.github.io/ai-workflow)
+
 ## Other than IT
 
 [Mini ramp Project for my home-town](http://switajski.github.io/miniramp)
